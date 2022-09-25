@@ -4,7 +4,7 @@ let x = Number(prompt("Enter a value for x: "));
 let y = Number(prompt("Enter a value for y: "));
 
 while(x % y !== 0){
-    x++;
+    x += 1;
     console.log(x)
     
 }
